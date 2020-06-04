@@ -26,6 +26,12 @@ print(x)
 x.insert(5, 99)
 print(x)
 
+## extra practice: print only the first three values of x [1, 2, 3]
+slice_x = slice(3)
+print(x[slice_x])
+# OR using indexing syntax
+print(x[0:3])
+
 # Print the length of list x
 # YOUR CODE HERE
 print(len(x))
